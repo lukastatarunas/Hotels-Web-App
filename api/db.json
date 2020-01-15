@@ -80,5 +80,17 @@
             "userRating": "4",
             "id": 10
         }
+    ],
+    "hotelDetails": [
+        {
+            "photoGallery": [
+                "https://whatson.ae/wp-content/uploads/2018/10/burj-al-arab-social.jpg",
+                "https://images.unsplash.com/photo-1465414951857-102134ffaa57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+                "https://q-cf.bstatic.com/images/hotel/max1024x768/200/200179798.jpg",
+                "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/dubai/burj-al-arab-jumeirah/hero/burj-al-arab-profile-exterior_6-4_landscape.jpg?h=1080&w=1620&hash=EC53B4930E984761CA037D53F8A9FBE5"
+            ],
+            "description": "The Burj Al Arab (Arabic: برج العرب‎, Tower of the Arabs) is a luxury hotel located in Dubai, United Arab Emirates.[7] One the tallest hotels in the world, it is the seventh tallest, although 39% of its total height is made up of non-occupiable space.[8][9][10] Burj Al Arab stands on an artificial island 280 m (920 ft) from Jumeirah Beach and is connected to the mainland by a private curving bridge. The shape of the structure is designed to resemble the sail of a ship. It has a helipad near the roof at a height of 210 m (689 ft) above ground.",
+            "id": 1
+        }
     ]
 }
