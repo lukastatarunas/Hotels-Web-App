@@ -16,8 +16,7 @@ const Hotels = ({ hotels }) => {
                             <div>
                                 <h2>{hotel.name}</h2>
                                 <p>€{hotel.price}/night</p>
-                                <p>{hotel.starRating}</p>
-                                <GradeIcon />
+                                {hotel.starRating.map(star => <GradeIcon />)}
                                 <p>User average rating: {hotel.userRating}</p>
                             </div>
                         </HotelContainer>

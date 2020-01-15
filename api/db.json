@@ -4,7 +4,7 @@
             "photo": "https://www.smartertravel.com/uploads/2019/01/Exterior-Terrace-1024x575.jpg",
             "name": "Burj Al Arab, Dubai",
             "price": "24.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "5",
             "id": 1
         },
@@ -12,7 +12,7 @@
             "photo": "https://www.smartertravel.com/uploads/2019/01/The-Plaza-Hotel-Eloise-e1547496373735.jpg",
             "name": "The Plaza Hotel, New York City",
             "price": "14.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "3",
             "id": 2
         },
@@ -20,7 +20,7 @@
             "photo": "https://www.smartertravel.com/uploads/2019/01/famous-hotel-Marina-Bay-Sands-from-afar-768x512.jpg",
             "name": "Marina Bay Sands, Singapore",
             "price": "13.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "4",
             "id": 3
         },
@@ -28,7 +28,7 @@
             "photo": "https://www.smartertravel.com/uploads/2019/01/Browns-Hotel-suite-768x512.jpg",
             "name": "Brown’s Hotel, London",
             "price": "15.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "2",
             "id": 4
         },
@@ -36,7 +36,7 @@
             "photo": "https://www.smartertravel.com/uploads/2019/01/famous-hotel-Atlantis-towers-credit-Yevgen-Belichshutterstock-768x441.jpg",
             "name": "Atlantis Bahamas, Nassau",
             "price": "10.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "3",
             "id": 5
         },
@@ -44,7 +44,7 @@
             "photo": "https://www.smartertravel.com/uploads/2019/01/TripAdvisor-Beverly-Hills-Hotel.jpg",
             "name": "The Beverly Hills Hotel, Los Angeles",
             "price": "11.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "5",
             "id": 6
         },
@@ -52,7 +52,7 @@
             "photo": "https://www.smartertravel.com/uploads/2019/01/famous-hotel-Copacabana-Rio-credit-Catarina-BelovaShutterstock-768x488.jpg",
             "name": "Copacabana Palace, Rio de Janiero",
             "price": "17.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "1",
             "id": 7
         },
@@ -60,7 +60,7 @@
             "photo": "https://www.smartertravel.com/uploads/2019/01/The-Brando-768x577.jpg",
             "name": "The Brando, Tahiti",
             "price": "14.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "4",
             "id": 8
         },
@@ -68,15 +68,15 @@
             "photo": "https://www.smartertravel.com/uploads/2019/01/Famous-hotel-La-Mamounia-High-Res-Pool-CREDIT-La-Mamounia-768x512.jpg",
             "name": "La Mamounia, Marrakech",
             "price": "19.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "3",
             "id": 9
         },
         {
-            "photo": "https://www.smartertravel.com/uploads/2019/01/Omni-Parker-Hotel-restaurant-Parkers.jpg",
+            "photo": "https://www.omnihotels.com/-/media/images/hotels/bospar/digex/hero/bospar-2880x1870.jpg?h=1870&w=2800&la=en&hash=F66248173547B8EE3ADBB6C896884F290CB2FAFB",
             "name": "Omni Parker House, Boston",
             "price": "13.000",
-            "starRating": "5",
+            "starRating": ["*", "*", "*", "*", "*"],
             "userRating": "4",
             "id": 10
         }
@@ -87,10 +87,170 @@
                 "https://whatson.ae/wp-content/uploads/2018/10/burj-al-arab-social.jpg",
                 "https://images.unsplash.com/photo-1465414951857-102134ffaa57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
                 "https://q-cf.bstatic.com/images/hotel/max1024x768/200/200179798.jpg",
-                "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/dubai/burj-al-arab-jumeirah/hero/burj-al-arab-profile-exterior_6-4_landscape.jpg?h=1080&w=1620&hash=EC53B4930E984761CA037D53F8A9FBE5"
+                "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/dubai/burj-al-arab-jumeirah/hero/burj-al-arab-profile-exterior_6-4_landscape.jpg?h=1080&w=1620&hash=EC53B4930E984761CA037D53F8A9FBE5",
+                "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/fa/f6/72.jpg",
+                "https://miro.medium.com/max/7680/1*JtqSf75RyHPXC-i9ZVZCJA.jpeg"
             ],
-            "description": "The Burj Al Arab (Arabic: برج العرب‎, Tower of the Arabs) is a luxury hotel located in Dubai, United Arab Emirates.[7] One the tallest hotels in the world, it is the seventh tallest, although 39% of its total height is made up of non-occupiable space.[8][9][10] Burj Al Arab stands on an artificial island 280 m (920 ft) from Jumeirah Beach and is connected to the mainland by a private curving bridge. The shape of the structure is designed to resemble the sail of a ship. It has a helipad near the roof at a height of 210 m (689 ft) above ground.",
+            "description": "The Burj Al Arab (Arabic: برج العرب‎, Tower of the Arabs) is a luxury hotel located in Dubai, United Arab Emirates. One the tallest hotels in the world, it is the seventh tallest, although 39% of its total height is made up of non-occupiable space. Burj Al Arab stands on an artificial island 280 m (920 ft) from Jumeirah Beach and is connected to the mainland by a private curving bridge. The shape of the structure is designed to resemble the sail of a ship. It has a helipad near the roof at a height of 210 m (689 ft) above ground.",
+            "reviews": [
+                "The rooms are made in a classic style, but did not remember anything. There is no modern content. Security at the entrance is too intrusive. Service should be asked several times to do commonplace things: bring luggage, bring fruit. The restaurant is a long line.",
+                "The hotel is very nice but the staff does not know how to solve problems. They really need a lot of training. It is the most expensive hotel in the wolrd but our stay was very unenjoyable. I wouldn´t come back.",
+                "First of all the hotel lobby is second to none! High Tea location on the 27th floor is worth splurging for. You definitely won’t need dinner on that day. The view is amazing, the room is out of sight and the many courses of the High Tea is varied, well paced and gives the guest the sense that they are special."
+            ],
             "id": 1
+        },
+        {
+            "photoGallery": [
+                "https://q-cf.bstatic.com/images/hotel/max1024x768/115/115421398.jpg",
+                "https://pix10.agoda.net/hotelImages/45092/0/3b4631e588b9d13b07b30b905360abcb.jpg?s=1024x768",
+                "https://www.theplazany.com/wp-content/uploads/2019/03/The-Plaza-A-Fairmont-Managed-Hotel-Exterior-1223573.jpg",
+                "https://cdn.kiwicollection.com/media/property/PR006187/l/006187-06-Palm-Court.jpg?cb=1483569068",
+                "https://edge.media.datahc.com/HI282470042.jpg",
+                "https://image.businessinsider.com/562a8e8d9dd7cc16008c453f?width=1100&format=jpeg&auto=webp"
+            ],
+            "description": "The Plaza Hotel is a landmarked 20-story luxury hotel and condominium apartment building in the Midtown Manhattan neighborhood of Manhattan, New York City. It opened in 1907 and is now owned by Katara Hospitality. The hotel is located on the western side of Grand Army Plaza at the intersection with Central Park South (59th Street), on the southeastern corner of Central Park and just west of Fifth Avenue. Construction on the first Plaza Hotel at this location began in 1883. After the original builders foreclosed, McKim, Mead & White completed the hotel and it opened in 1890. The current 19-story, French Renaissance-inspired château-style building was designed by Henry Janeway Hardenbergh. Built in 27 months, it opened in 1907. The Plaza Hotel was accorded landmark status by the New York City Landmarks Preservation Commission in 1969; it was designated a National Historic Landmark (NHL) in 1986 for its lavish architecture.",
+            "reviews": [
+                "Spent the weekend at the Plaza Hotel. History, room, amenities, service, the bed, the food, were ALL EXCEPTIONAL. My wife and I make at least an annual trip to New York, often two trips, and we try to mix it up and stay at different hotels or VRBO's in different areas of New York. The Plaza is going to be tough to beat moving forward, we loved it.",
+                "The food and the service was excellent. I loved the variety in the types of teas that the Plaza has to offer. Not to mention, how kind Porfirio was in explaining the menu and giving my brother and I tea bags to take home!",
+                "Our waiter was amazing and so friendly. It was a nice place to grab a drink after a long day of shopping. Our waiter was extremely helpful and gave us lots of good recommendations, and service was impeccable! Would definitely recommend this place to everyone!"
+            ],
+            "id": 2
+        },
+        {
+            "photoGallery": [
+                "https://i.ytimg.com/vi/u33D9BhT6NA/maxresdefault.jpg",
+                "https://image.iventurecard.com/images/attractions/attraction_1823_main_583662437dcc8.jpg",
+                "https://cdn.peri.com/.imaging/xl/dam/4eb0b9be-b46e-4118-b5e9-51b7030f461f/87546/marina-bay-sands-the-american-las-vegas-sands-corporation-is-the-owner-of-the-complex-the-highly-visible-hotel-towers.jpg",
+                "https://www.visitsingapore.com/see-do-singapore/recreation-leisure/resorts/marina-bay-sands/_jcr_content/par-carousel/carousel_detailpage/carousel/item_1.thumbnail.carousel-img.740.416.jpg",
+                "https://a.cdn-hotels.com/gdcs/production9/d1409/6379ac2a-f6c4-4e00-a7e7-93ecb53de578.jpg",
+                "https://d1nabgopwop1kh.cloudfront.net/hotel-asset/30000002100158007_wh_209"
+            ],
+            "description": "Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore, owned by the Las Vegas Sands corporation. At its opening in 2010, it was billed as the world's most expensive standalone casino property at S$8 billion ($5.88 billion USD), including the land cost. The resort includes a 2,561-room hotel, a 120,000-square-metre (1,300,000 sq ft) convention-exhibition centre, the 74,000-square-metre (800,000 sq ft) The Shoppes at Marina Bay Sands mall, a museum, two large theatres, celebrity chef restaurants, two floating Crystal Pavilions, art-science exhibits, and the world's largest atrium casino with 500 tables and 1,600 slot machines. The complex is topped by a 340-metre-long (1,120 ft) SkyPark with a capacity of 3,900 people and a 150 m (490 ft) infinity swimming pool, set on top of the world's largest public cantilevered platform, which overhangs the north tower by 67 m (220 ft). The 20-hectare resort was designed by Moshe Safdie architects.",
+            "reviews": [
+                "I booked a 2 bedroom and was upgraded to one of their suites. It was so spacious, luxurious and had an incredible view of the Garden by the Bay!!! When we walked into the hotel lobby, there were so many people and the check in process was quite impersonal that I thought this is a one and done stay. Was I totally surprised by the room and I would highly recommend this hotel to anyone visiting Singapore. The pool was okay only because it was so crowded.",
+                "Must have item to stay, not just to visit. It is large like factory but everything works perfectly and the rooms are nice. Main attraction of course the pool on the top floor, access only to hotel guests. Breakfast worked well also downstairs.",
+                "Just returned from a fabulous and relaxing break over the Christmas and New Year period. The food was out of this world, superb service and the rooms really do set the standard. No better way to bring in 2020, thank you to all the staff at Marina Bay Sands."
+            ],
+            "id": 3
+        },
+        {
+            "photoGallery": [
+                "https://pix10.agoda.net/hotelImages/165/165716/165716_15073023440033379556.jpg?s=1024x768",
+                "https://static-new.lhw.com/HotelImages/Final/LW0427/lw0427_87756379_720x450.jpg",
+                "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/United%20Kingdom/London/browns-london-new-prod-1.jpg",
+                "https://q-cf.bstatic.com/images/hotel/max1280x900/781/78166799.jpg",
+                "https://content.r9cdn.net/rimg/himg/6f/ab/3c/leonardo-1259723-Brown_s_Hotel_-_The_Donovan_Bar_S-472614.jpg?width=660&crop=true&caller=HotelDetailsPhoto",
+                "https://pillowandpepper.com/media/catalog/product/cache/2/thumbnail/575x371/2ef546871d769083a315edd9fee1a306/g/a/ga_browns-hotel-london-the-englishtea-room-piano-room-4542.jpg"
+            ],
+            "description": "Brown's Hotel is a luxury hotel in Mayfair, London, established in 1837 and owned by Rocco Forte Hotels since 3 July 2003. It is considered one of London's oldest existing hotels.",
+            "reviews": [
+                "Staying at Browns is like “coming home”. Staff are superb. Attention to detail everywhere. Welcoming. Comfortable. Food excellent. Fabulous location. Love it. When in London I don’t stay anywhere else. Highly recommend.",
+                "Everything about our stay at Brown's was perfect. The service, impeccable and friendly, the concierge knowledgeable and exceedingly helpful, the room very comfortable and quiet and the breakfast outstanding.",
+                "Nice location, very nice staff. We had an upgraded room. It was tired. The furniture had numerous nicks, drapes were awful. Bathroom old but ok. NOT a 5 star Hotel anymore."
+            ],
+            "id": 4
+        },
+        {
+            "photoGallery": [
+                "https://q-cf.bstatic.com/images/hotel/max1024x768/843/84367002.jpg",
+                "https://cdn.travelpulse.com/images/99999999-9999-9999-9999-999999999999/c3d3717b-c3f0-fbd0-19a6-1058bd085621/630x355.jpg",
+                "https://www.familyvacationcritic.com/uploads/sites/19/2015/08/AtlantisParadiseIsland-OverviewImage.jpg",
+                "https://www.atlantisbahamas.com/storage/media/legacy/fb/RT_FB_1200x630.jpg",
+                "https://i.pinimg.com/originals/00/00/40/00004082ea149a415f984777ae878338.jpg",
+                "https://q-cf.bstatic.com/images/hotel/max1024x768/118/118100569.jpg"
+            ],
+            "description": "Atlantis Paradise Island is an ocean-themed resort on Paradise Island in the Bahamas. It features a variety of accommodations built around Aquaventure, a 62-hectare (154-acre) waterscape, which includes fresh and saltwater lagoons, pools, marine habitats, water slides, and river rides.",
+            "reviews": [
+                "Atlantis has everything you could possibly want or need. The beautiful beaches coupled with the array of pools and magnificence of the waterpark makes it a great destination. The best part is that there is something for every member of the family to enjoy, and appeals to all personalities and interests.",
+                "Best place to take pictures and create wonderful memories. Great shopping place and offers a variety of many things to see. Great restaurants and unbelievable Casino! Great environment, surrounded by the most beautiful beaches!",
+                "We were upgraded to a suite since we had an issue initially with our key cards. Great place for us since we were celebrating our engagement. Would consider the adults only section if you are not traveling with kids."
+            ],
+            "id": 5
+        },
+        {
+            "photoGallery": [
+                "https://s1.it.atcdn.net/wp-content/uploads/2013/09/Beverly-Hills-Hotel.jpg",
+                "https://i.pinimg.com/originals/dc/fe/2d/dcfe2da7939f69c407ec3c514397cbeb.jpg",
+                "https://emporium-voyage.com/uploads/container_user_files/locations/the-beverly-hills-hotel/property-images/36387896910-66621928455.jpg",
+                "https://www.dorchestercollection.com/wp-content/uploads/beverly-hills-hotel-polo-lounge-patio-landscape-1600x900.jpg",
+                "https://q-xx.bstatic.com/xdata/images/hotel/840x460/23601196.jpg?k=330d0e4781240a0005f04b2a22c10831de3b6466ef0b3883c021348756772c0c&o=",
+                "https://r-cf.bstatic.com/images/hotel/max1024x768/184/184232391.jpg"
+            ],
+            "description": "The Beverly Hills Hotel, also called the Beverly Hills Hotel and Bungalows, is located on Sunset Boulevard in Beverly Hills, California. One of the world's best-known hotels, it is closely associated with Hollywood film stars, rock stars, and celebrities. The hotel has 210 guest rooms and suites and 23 bungalows, each designed in the signature pink and green colors that are a trademark of the hotel.",
+            "reviews": [
+                "The hotel is so quiet qnd fun. The customer service here is spectacular. i met the gm briefly and they really follow everything correctly from top to bottom. No expemse is spared to make you comfortable. on li y place to stay in Beverly Hills.",
+                "Fancy hotel, fancy cafe, nice decor, great staff and service. However brunch/food could have been nicer. I had the smashed avo/poached eggs with salad. Salad was dry and and not fresh. Presentation of food was standard. For what you pay, I don’t think it was good value. I don’t mind paying for good food, felt it was basic and didn’t live up to the great name. Just my opinion on one visit.",
+                "My family spent 12 nights during Thanksgiving vacation. Our experience was wonderful!! Grazyme Czermy, Front Office, was very gracious and helpful during our stay. Her kindness and support were unprecedented."
+            ],
+            "id": 6
+        },
+        {
+            "photoGallery": [
+                "https://www.airlinestaffrates.com/wp-content/uploads/2018/08/2-24.jpg",
+                "https://charlottetravel.com.hk/sites/default/files/styles/hp_slideshow_phone/public/MPH-POOL-21_0.jpg?itok=kzjnjWvG&timestamp=1463036469",
+                "https://s23444.pcdn.co/wp-content/uploads/2016/08/Facade-RSZ.jpg.optimal.jpg",
+                "https://i.pinimg.com/originals/a6/7e/c3/a67ec32af56bafa29182d8d96f024a2a.png",
+                "https://thumbnails.trvl-media.com/FFzNRp40DfUe0UAXWIRh0u14lTU=/773x530/smart/filters:quality(60)/images.trvl-media.com/hotels/1000000/10000/7200/7130/50f25824_z.jpg",
+                "https://www.smartertravel.com/uploads/2019/01/famous-hotel-Copacabana-Rio-credit-Catarina-BelovaShutterstock-768x488.jpg"
+            ],
+            "description": "Belmond Copacabana Palace is a hotel in the city of Rio de Janeiro, Brazil, facing Copacabana beach. Designed by French architect Joseph Gire, it was built in a style that follows the line and model of the great beach hotels of the nineteenth and early twentieth centuries, and opened on August 13, 1923. With almost a century of existence, Belmond Copacabana Palace continues to be one of the most important hotel complexes in the city of Rio, and in Brazil, with two hundred and forty-three rooms (116 apartments and 127 suites), divided between the main and the annex building, in an area of twelve thousand square meters.",
+            "reviews": [
+                "Copacabana Palace is a classic in Rio and worth a visit even for a night stay. It has a beautiful pool (in theory heated but having stayed twice, it was never warm), rooms were large and comfortable (always stayed in Tower Ocean Front Suites). Great food options and nice vibe. Since we live in Rio, we come in for special nights and it is a safe bet. Room for improvements, though.",
+                "I've been in this hotel so many times, with my family and alone. I tried any kind of room and i used all service availabe. Durig the years i so many people passed in the hotel, but the level of professionality I noted has been always very hight. The supervision of the expert and elegant GM always made surethat the hotel is still the best in town. Belmond is a garantee!",
+                "This hotel never lets down. Fantastic rooms, pool and the best breakfast in Rio. Amazing service. I love this hotel and it is a classic. The one downside would be the beach in front is not as nice as those in Leblon or Ipanema, but it is still worth it! Concierge and reception take care of everything. They also had an amazing kids club for the holiday period which my son loved."
+            ],
+            "id": 7
+        },
+        {
+            "photoGallery": [
+                "https://www.tahiti.com/images1/gallery/TTITBR-Villa-Pool-2000x1200_34556.jpg",
+                "https://www.borabora.com/_client_files/packages/123/119-ow_4seasons-view.jpg",
+                "https://tekuratahititravel.com/wp-content/uploads/sites/3/2019/08/Pool.jpg",
+                "https://i.pinimg.com/originals/95/4c/2a/954c2a7aa7a45d64a37b7cc9600d71d9.jpg",
+                "https://thebrando.com/wp-content/uploads/2014/03/home-grid-11.jpg",
+                "https://thebrando.com/wp-content/uploads/2019/04/TheBrando_180718_0981_HD%C2%A9RomeoBalancourt-1920px-1-1640x830.jpg"
+            ],
+            "description": "The Brando is a unique luxury resort on French Polynesia’s breathtakingly beautiful private island of Tetiaroa – an atoll composed of a dozen small islands surrounding a sparkling lagoon 30 miles northeast of Tahiti. The Brando offers carefree luxury in the midst of pristine nature. With access to the island by private plane, the resort features 35 villas on white-sand beaches frequented by sea turtles, manta rays and exotic birds. The resort was designed to reflect Polynesian lifestyles and culture.",
+            "reviews": [
+                "This place is the most restful place I have ever been too. It is breath taking from the moment you get on the little plane to get to the island your senses are overwhelmed by the beauty of this wonder land . The staff are so friendly and they just seem to know what you require. The spa is amazing I would recommend the India head massage, we went for the all inclusive and you were not short changed one bit. I can't wait to go again.",
+                "We spent four glorious nights on this sanctuary island and I’m saving for our return trip. Perfection does not begin to describe the resort. I was able to surprise my husband with a BBQ anniversary dinner at our Villa - beyond romantic.",
+                "My husband and I went to the Brando for our baby moon. We have had the good fortune of being able to travel all over the world. This has been our favorite destination of any place we have ever been. When I need to relax, I dream that I am there again.... peaceful, unspoiled, beloved, beautiful. It is my idea of heaven in every sense of the word."
+            ],
+            "id": 8
+        },
+        {
+            "photoGallery": [
+                "https://149370792.v2.pressablecdn.com/wp-content/uploads/2018/05/La-Mamounia-Luxury-Hotel-Marrakech-11.jpg",
+                "http://www.olielo.com/wp-content/uploads/2015/05/La-Mamounia-Marrakech-atrium.jpg",
+                "https://edge.media.datahc.com/HI138332828.jpg",
+                "https://ddhtdmd3j7ft5.cloudfront.net/eyJidWNrZXQiOiJpbWFnZS1taW1jaXR5Iiwia2V5IjoiMTI3MzY4MTQyMlwvNjI1LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODUwLCJoZWlnaHQiOjU2NiwiZml0IjoiY292ZXIifX19",
+                "https://lamamouniamarrakech.com/wp-content/uploads/2019/02/La-Mamounia-1024x680.jpg",
+                "https://www.hoteliermiddleeast.com/sites/default/files/hme/styles/full_img/public/images/2018/11/13/chambre-deluxe-3.jpg?itok=6ksKXkez"
+            ],
+            "description": "Time is irrelevant at La Mamounia. Here the past blends with the present and days are punctuated by the sound of birdsongs, soothing argan oil massages, and candlelight tete-a-tete dinners.",
+            "reviews": [
+                "Spent a few days back in September 2012. It was a fantastic experience. Makes you feel like royalty. Grounds are beautiful, swimming pools are postcards and rooms are extremely comfortable. Understand it will go through renovation so, whenever is back, I look forward to stay again.",
+                "Very beautiful hotel from the moment you enter the grounds, luxury from the furnishings to the decor and being here just before Christmas the interior was full of the festive season with amazing Christmas trees.",
+                "We had ordered tea and snacks the service was great the only minor issue would be the small tables where we sat to have tea, as one had to be careful not to knock anything over. The experience of having tea/snacks was very nice and afterwards a walk around the gardens was just amazing."
+            ],
+            "id": 9
+        },
+        {
+            "photoGallery": [
+                "https://www.omnihotels.com/-/media/images/hotels/bospar/digex/hero/bospar-2880x1870.jpg?h=1870&w=2800&la=en&hash=F66248173547B8EE3ADBB6C896884F290CB2FAFB",
+                "https://www.smartertravel.com/uploads/2019/01/Omni-Parker-Hotel-restaurant-Parkers.jpg",
+                "https://www.boston-discovery-guide.com/image-files/800-omni-parker-house-lobby-2.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/a/ab/Omniparkerhouse.jpg",
+                "https://i.pinimg.com/originals/19/d4/b3/19d4b3d35b8553a9acdfb52dda211a95.jpg",
+                "https://thumbnails.trvl-media.com/Emen_abjGlpJe3JqtwUaT06kThE=/582x388/smart/filters:quality(60)/images.trvl-media.com/hotels/1000000/30000/23500/23415/c142e9c8_z.jpg"
+            ],
+            "description": "A legendary symbol in downtown Boston since 1855, Omni Parker House boasts old-world charm and elegance accompanied by all of the modern conveniences of a world-class establishment. Nestled in the heart of our historic city, we’re located along the Freedom Trail and at the foot of Beacon Hill, Boston Common, Quincy Market and Faneuil Hall Marketplace.",
+            "reviews": [
+                "The rooms are made in a classic style, but did not remember anything. There is no modern content. Security at the entrance is too intrusive. Service should be asked several times to do commonplace things: bring luggage, bring fruit. The restaurant is a long line.",
+                "The hotel is very nice but the staff does not know how to solve problems. They really need a lot of training. It is the most expensive hotel in the wolrd but our stay was very unenjoyable. I wouldn´t come back.",
+                "First of all the hotel lobby is second to none! High Tea location on the 27th floor is worth splurging for. You definitely won’t need dinner on that day. The view is amazing, the room is out of sight and the many courses of the High Tea is varied, well paced and gives the guest the sense that they are special."
+            ],
+            "id": 10
         }
     ]
 }

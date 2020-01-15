@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import { Form } from '../styles/styles';
+import { Form, Input, Button } from '../styles/styles';
 
 const validationSchema = Yup.object({
     firstName: Yup.string().required('First Name is required!'),
@@ -23,58 +24,64 @@ const ContactForm = () => {
         },
         validationSchema,
         onSubmit: values => {
-            alert('Submitted successfully!');
-            console.log(values);
-            values = {};
-            console.log(values);
+            
         }
     });
 
     return (
         <Form onSubmit={handleSubmit}>
-            <input
+            <h2>Contact Form</h2>
+            <Input
                 type='text'
-                name='firstName' 
+                name='firstName'
+                placeholder='First Name'
                 onChange={handleChange} 
                 values={values.firstName}
             />
             {errors.firstName ? errors.firstName : null}
-            <input
+            <Input
                 type='text'
-                name='lastName' 
+                name='lastName'
+                placeholder='Last Name'
                 onChange={handleChange} 
                 values={values.lastName}
             />
             {errors.lastName ? errors.lastName : null}
-            <input
+            <Input
                 type='text'
-                name='username' 
+                name='username'
+                placeholder='Username'
                 onChange={handleChange} 
                 values={values.username}
             />
             {errors.username ? errors.username : null}
-            <input
+            <Input
                 type='email'
-                name='email' 
+                name='email'
+                placeholder='Email'
                 onChange={handleChange} 
                 values={values.email}
             />
             {errors.email ? errors.email : null}
-            <input
+            <Input
                 type='password'
-                name='password' 
+                name='password'
+                placeholder='Password'
                 onChange={handleChange} 
                 values={values.password}
             />
             {errors.password ? errors.password : null}
-            <input
+            <Input
                 type='password'
-                name='confirmPassword' 
+                name='confirmPassword'
+                placeholder='Confirm Password'
                 onChange={handleChange} 
                 values={values.confirmPassword}
             />
             {errors.confirmPassword ? errors.confirmPassword : null}
-            <button type='submit'>Submit</button>
+            <Link href='/hotels'>
+                <Button type='submit'>Submit</Button>
+            </Link>
         </Form>
     );
 }
