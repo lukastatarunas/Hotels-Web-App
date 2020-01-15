@@ -1,0 +1,84 @@
+{
+    "hotelsList": [
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/Exterior-Terrace-1024x575.jpg",
+            "name": "Burj Al Arab, Dubai",
+            "price": "24.000",
+            "starRating": "5",
+            "userRating": "5",
+            "id": 1
+        },
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/The-Plaza-Hotel-Eloise-e1547496373735.jpg",
+            "name": "The Plaza Hotel, New York City",
+            "price": "14.000",
+            "starRating": "5",
+            "userRating": "3",
+            "id": 2
+        },
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/famous-hotel-Marina-Bay-Sands-from-afar-768x512.jpg",
+            "name": "Marina Bay Sands, Singapore",
+            "price": "13.000",
+            "starRating": "5",
+            "userRating": "4",
+            "id": 3
+        },
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/Browns-Hotel-suite-768x512.jpg",
+            "name": "Brown’s Hotel, London",
+            "price": "15.000",
+            "starRating": "5",
+            "userRating": "2",
+            "id": 4
+        },
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/famous-hotel-Atlantis-towers-credit-Yevgen-Belichshutterstock-768x441.jpg",
+            "name": "Atlantis Bahamas, Nassau",
+            "price": "10.000",
+            "starRating": "5",
+            "userRating": "3",
+            "id": 5
+        },
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/TripAdvisor-Beverly-Hills-Hotel.jpg",
+            "name": "The Beverly Hills Hotel, Los Angeles",
+            "price": "11.000",
+            "starRating": "5",
+            "userRating": "5",
+            "id": 6
+        },
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/famous-hotel-Copacabana-Rio-credit-Catarina-BelovaShutterstock-768x488.jpg",
+            "name": "Copacabana Palace, Rio de Janiero",
+            "price": "17.000",
+            "starRating": "5",
+            "userRating": "1",
+            "id": 7
+        },
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/The-Brando-768x577.jpg",
+            "name": "The Brando, Tahiti",
+            "price": "14.000",
+            "starRating": "5",
+            "userRating": "4",
+            "id": 8
+        },
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/Famous-hotel-La-Mamounia-High-Res-Pool-CREDIT-La-Mamounia-768x512.jpg",
+            "name": "La Mamounia, Marrakech",
+            "price": "19.000",
+            "starRating": "5",
+            "userRating": "3",
+            "id": 9
+        },
+        {
+            "photo": "https://www.smartertravel.com/uploads/2019/01/Omni-Parker-Hotel-restaurant-Parkers.jpg",
+            "name": "Omni Parker House, Boston",
+            "price": "13.000",
+            "starRating": "5",
+            "userRating": "4",
+            "id": 10
+        }
+    ]
+}
