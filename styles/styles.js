@@ -92,13 +92,13 @@ export const Reviews = styled.h2`
     text-align: center;
 `;
 
-export const ReviewsContainer = styled.h2`
+export const ReviewsContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0px 10px;
 `;
 
-export const Review = styled.h5`
+export const Review = styled.h3`
     margin: 10px;
 `;
